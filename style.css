@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+html {
+    background-color: #FFFFFF;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+.welcome-text {
+    font-family: Roboto Mono;
+    font-size: 35px;
+    color: #1D3557;
+}
+
+.welcome-about {
+    font-family: Roboto Mono;
+    font-size: 18px;
+    color: #1D3557;
+}
+
+.divs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.div {
+  width: 20%;
+  margin: 0 10px;
+  border: 1px solid black;
+  padding: 10px;
+}
