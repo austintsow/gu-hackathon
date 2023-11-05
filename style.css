@@ -1,0 +1,154 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* actual css */
+html {
+    background-color: #FAF9F6;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.welcome-text {
+    font-family: Roboto Mono;
+    font-size: 40px;
+    color: #262523;
+    font-weight: bold;
+}
+
+.welcome-about {
+    font-family:  Roboto Mono;
+    font-size: 18px;
+    color: #262523;
+}
+
+#div-text-general {
+    font-family: Roboto Mono;
+    font-size: 15px;
+    color: #116A7B;
+    font-weight: bold;
+}
+
+#div-text-course {
+    font-family: Roboto Mono;
+    font-size: 15px;
+    color: #85A389;
+    font-weight: bold;
+}
+
+#div-text-directions {
+    font-family: Roboto Mono;
+    font-size: 15px;
+    color: #CBB279;
+    font-weight: bold;
+}
+
+#div-text-cog {
+    font-family: Roboto Mono;
+    font-size: 15px;
+    color: #D9ACF5;
+    font-weight: bold;
+}
+
+#in-div-text {
+    font-family: Roboto Mono;
+    font-size: 13px;
+    color: #262523;
+}
+
+.general-questions {
+    color: #8EACCD;
+}
+
+.divs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.div {
+  width: 20%;
+  margin: 0 10px;
+  border: 1px solid #262523;
+  padding: 10px;
+  color: #262523;
+  border-radius:30px;
+}
+
+.input-group {
+    display: flex;
+    margin-top: 20px;
+}
+  
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+#micBtn {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+#micBtn i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.welcome {
+  border-right: solid 3px #262523;
+  white-space: nowrap;
+  overflow: hidden;    
+  font-family: Roboto Mono;  
+  font-size: 28px;
+  color: #262523;
+}
+
+.welcome {
+  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+             animated-cursor 600ms steps(29,end) infinite;
+}
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 472px;}
+}
+
+@keyframes animated-cursor{
+  from{border-right-color: #262523;}
+  to{border-right-color: transparent;}
+}
+
+.chat-box {
+    font-family: Roboto Mono;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .user-message {
+    text-align: right;
+    margin-bottom: 5px;
+  }
+  
+  .assistant-message {
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
